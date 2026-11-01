@@ -239,7 +239,7 @@ with tab3:
         st.plotly_chart(fig_corr, use_container_width=True)
         
         st.markdown("**주요 상관계수 값**")
-       st.dataframe(corr_target)
+        st.dataframe(corr_target)
         
     with col2:
         st.markdown("##### **흡연율 & 음주율 vs 사망률 (산점도 그래프)**")
